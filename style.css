@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F4F2EE;
+    overflow: hidden;
+}
+#nav{
+    height: 15%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top:3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#nav h3{
+    margin-left: 75px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cnav{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#cnav a{
+    position: absolute;
+    left:45%;
+    text-decoration: none;
+    padding-top: 15px;
+    opacity: 0.5;
+}
+#cnav i{
+    margin-left: 17px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 16%;
+}
+#rnav{
+   position: relative;
+   justify-content: center;
+   text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color:#fff;
+    border-radius: 50%;
+    margin-right: 75px;
+}
+#rnav i{
+    position: absolute;
+    top: 33%;
+    left: 34%;
+}
+#buttom{
+    height: 22%;
+    width: 100%;
+   position: fixed;
+   z-index: 999999;
+    top: 80%;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    /* color:transparent; */
+}
+#left{
+    position:absolute ;
+    width: 25%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    
+}
+#left h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 40%;
+    font-weight: 100;
+}
+#left h3{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50.5%;
+    left: 52%;
+    opacity: 0.8;
+}
+#right{
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 25%;
+   background-color: transparent;
+}
+#right #p1{
+    display: flex;
+    position: absolute;
+   left: 2%;
+    height: 200px;
+    width: 200px;
+}
+#p1 #img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#p1 #img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+}
+#p1 #text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #000;
+}
+#p1 #text h5{
+    font-size: 15px;
+}
+#right #p2{
+    display: flex;
+    position: absolute;
+   left: 22%;
+    height: 200px;
+    width: 200px;
+}
+#p2 #img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#p2 #img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+}
+#p2 #text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #000;
+}
+#p2 #text h5{
+    font-size: 15px;
+}
+#right #p3{
+    display: flex;
+    position: absolute;
+   left: 42%;
+    height: 200px;
+    width: 200px;
+}
+#p3 #img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#p3 #img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+}
+#p3 #text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #000;
+}
+#p3 #text h5{
+    font-size: 15px;
+}
+#right #p4{
+    display: flex;
+    position: absolute;
+   left: 62%;
+    height: 200px;
+    width: 200px;
+}
+#p4 #img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#p4 #img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+}
+#p4 #text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #000;
+}
+#p4 #text h5{
+    font-size: 15px;
+}
+#right #p5{
+    display: flex;
+    position: absolute;
+   left: 82%;
+    height: 200px;
+    width: 200px;
+}
+#p5 #img{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    top: 29%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#p5 #text{
+    position: absolute;
+    top: 33%;
+    left: 30%;
+    color: #000;
+}
+#p5 #text h6{
+    font-size: 15px;
+}
+#swiper{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:#F4F2EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    object-fit: cover;
+    background-size: cover;
+}
+.swiper-slide h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    color: rgba(171, 170, 170, 0.963);
+    top: 10%;
+    left: 2%;
+    letter-spacing: 10px;
+    white-space: nowrap;
+}
+.swiper-slide h2{
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    letter-spacing: 5px;
+}
+.swiper-slide h5{
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
